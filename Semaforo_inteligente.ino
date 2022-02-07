@@ -16,7 +16,7 @@ void loop (){
   if(digitalRead(BUTTON) == LOW) { 
     digitalWrite(LED_GREEN, HIGH);
   }
-  else if(digitalRead(BOTON) == HIGH) {
+  else if(digitalRead(BUTTON) == HIGH) {
     delay(5000); // 1s = 1000ms
     digitalWrite(LED_GREEN, LOW);
     digitalWrite(LED_YELLOW, HIGH);
